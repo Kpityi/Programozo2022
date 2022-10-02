@@ -35,7 +35,7 @@ nav a{
     padding: 0.3vw 0.8vw 0.3vw 0.8vw;
     color: aqua;
     background-color: rgb(95, 86, 86);
-    margin: 0.3vw 0 0.3 0.3;
+    margin: 0.3vw 0 0.3wv 0.3wv;
     
 }
 nav a:hover{
@@ -81,9 +81,7 @@ img{
     top: 0;
 }
 main{
-    background: cornsilk,
-   
-    
+    background: cornsilk;  
 }
 /* text css begin */
 p{
@@ -150,11 +148,17 @@ ol p{
 /* text css end */
 .links{
     padding: 3vw;
+    max-width: 100%;
+    display: block;
+    margin: auto;
+}
+.links li{
+   margin-top: 1vw;   
+border: none;
 }
 .links ul{
-    margin-top: 2vw;
+    margin: 2vw;
 }
-
 .address{
     margin: 5vw 
 }
@@ -224,7 +228,6 @@ footer{
     background: rgba(0, 0, 0, 1);
     position: fixed;
     bottom: 0;
-    display: flexbox;
     min-width: 100%;
     color: white;
     font-size: 1vw;
